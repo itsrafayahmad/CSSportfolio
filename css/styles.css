@@ -1,0 +1,132 @@
+/***************CSS SELECTORS*****************/
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E
+}
+
+a {
+  color: #11999E
+}
+
+body {
+  color: #40514E;
+  margin: 0 0 0 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 8px;
+  width: 3%;
+
+}
+/***************CSS CLASSES*****************/
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+.intro {
+  width: 30%;
+  margin:auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+padding: 50px 0 20px;
+
+}
+
+.profile-pic {
+  padding-top: 5%;
+  height: 15%;
+  width: 15%;
+}
+.top-cloud {
+  position: absolute;
+  top: 8%;
+  right: 25%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+
+.skill-row img {
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #11999E;
+}
+.footer-link:hover {
+  color:#147e82;
+}
+
+
+.copyright {
+  margin: 30px auto 5px auto;
+  color: #EAF6F6;
+  font-size: 9px;
+}
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+	background-color:#11999e;
+	border-radius:28px;
+	border:1px solid #11999e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #096f73;
+}
+.btn:hover {
+	background-color:#157a7d;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
